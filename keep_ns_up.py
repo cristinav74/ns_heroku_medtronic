@@ -21,4 +21,4 @@ def checkIfProcessRunning(processName):
 while(True):
 	if (checkIfProcessRunning("npm") == False):
 		subprocess.call(["npm", "start"])
-	time.sleep(600) # 10 minutes
+	time.sleep(300) # 5 minutes
